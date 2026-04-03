@@ -1,0 +1,968 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Admin register page  */
+.admin-reg{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(/src/Image/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.admin-head{
+    text-align: center;
+}
+
+.admin-head h2{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+    color: azure;
+    margin-bottom: 14px;
+}
+.admin-head h3{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 15px;
+    color: azure;
+}
+
+.admin-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.register-form{
+    padding: 15px;
+    border-radius: 14px;
+    font-size: large;
+    width: 600px;
+    margin: 18px;
+    color: azure;
+    font-weight: bold;
+    /* background: linear-gradient(rgba(109, 103, 103, 0.3),  rgba(97, 96, 96, 0.1)); */
+}
+
+
+
+/* Admin login page  */
+
+.login-image{
+    background-image:linear-gradient(rgba(0,0,0,0.9) ,rgba(0,0,0,0.3) ,rgba(0,0,0,0.9)), url(/src/Image/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.login-heard{
+    text-align: center;
+}
+
+.login-heard h2{
+    font-size: 60px;
+    color: azure;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.login-heard h3{
+    font-size: 35px;
+    color: azure;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -80px;
+    margin-top: 10px;
+}
+
+.admin-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-form{
+    width: 550px;
+    margin: 20px;
+    color: azure;
+    font-weight: bold;
+}
+
+.login-button button{
+    letter-spacing: 2px;
+}
+
+/* admin foret pass */
+.forgetpas{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.1)) ,url(/src/Image/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foret-head{
+    text-align: center;
+   
+
+}
+
+.foret-head h2{
+    padding-top: 63px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+}
+.foret-head h3{
+        margin-bottom: -6.5rem;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: azure;
+}
+
+.admin-foret{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.forget-form{
+    width: 500px;
+    margin: 17px;
+    font-weight: bold;
+    color: azure;
+}
+
+/* offcanvas-adminprofile  */
+
+#offcanvas-adminprofile img{
+    border-radius: 50%;
+    width: 49%;
+    height: 28vh;
+    transform: scale(1.05);
+    transition: 0.6s;
+    padding: 12px;
+}
+
+#offcanvas-adminprofile img:hover{
+    border-radius: 50%;
+    width: 49%;
+    height: 28vh;
+    transform: scale(1.14);
+    transition: 0.1s;
+}
+
+.modal{
+    background: linear-gradient(gray,#c7bcbc,gray);
+}
+
+.modal-body img{
+    border-radius: 30% 40px;
+    width: 30px;
+    height: 180px;
+}
+#modal-img{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9) ), url(Image/4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#modal-input input{
+    background-color: transparent;
+    color: azure;
+    font-weight: bold;
+    border: transparent;
+    box-shadow: none;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.exampleModal{
+    background: #18181b;
+    margin: 20px;
+    border-radius: 12px 50px;
+}
+
+.exampleModal-h1 h1{
+   text-align: center;
+   color: #3232b3;
+   font-size: 36px;
+   padding: 18px;
+}
+
+/* admin profile  */
+
+
+.admin-profile{
+    background: linear-gradient(15deg, #2188e9,#bebebe,#2188e9,#bebebe,#2188e9);
+    width: 100%;
+    height: 100%;
+}
+
+.adminprofile h2{
+   padding-top: 30px;
+   padding-bottom: 30px;
+     text-align: center;
+    font-family:Times, serif; 
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px black,
+                 0px 2px 0px black,
+                 0px 3px 0px black,
+                 0px 4px 0px #ffffff,
+                 0px 5px 0px black
+    ;
+}
+
+.adminprofile h2:hover{
+     text-align: center;
+    font-family:Times, serif; 
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #2188e9,
+                 0px 2px 0px #2188e9,
+                 0px 3px 0px #2188e9,
+                 0px 4px 0px #ffffff,
+                 0px 5px 0px #2188e9
+    ;
+}
+.admin-row .row{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: stretch;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.admin-h2 h2{
+    margin: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.admin-image{
+    text-align: center;
+    margin-top:10px;
+}
+
+.admin-image img{
+    width: 59%;
+    height: 29vh;
+    border-radius: 50%;
+}
+
+
+.admin-row .card{
+    box-shadow: 0px 0px 2px 0px #000000,
+                0px 0px 4px 1px #000000,
+                0px 0px 6px 2px #ffffff,
+                0px 0px 4px 3px #000000,
+                0px 0px 2px 4px #000000,
+                0px 0px 4px 5px #238ef1,
+                0px 0px 6px 6px #238ef1,
+                0px 0px 4px 7px #238ef1
+               
+    ;
+}
+
+.admin-row .card:hover{
+    box-shadow: 0px 0px 2px 0px #238ef1,
+                0px 0px 4px 1px #238ef1,
+                0px 0px 6px 2px #ffffff,
+                0px 0px 4px 3px #238ef1,
+                0px 0px 2px 4px #238ef1,
+                0px 0px 4px 5px #000000,
+                0px 0px 6px 6px #000000,
+                0px 0px 4px 7px #000000
+               
+    ;
+}
+
+.admin-row .card img{
+    transform: scale(1);
+    transition: 0.4s;
+}
+
+.admin-row .card img:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+/* user add page  */
+
+.Useradd{
+    
+    background-image:linear-gradient(156deg, rgba(0,0,0,0.7)),url(/src/Image/18.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.User-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.user-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 520px;
+    padding: 18px;
+    border-radius: 11px;
+    border: 2px solid wheat; 
+    background-image: linear-gradient(147deg, #64616156,rgba(0, 0, 0, 0.3),#64616156);
+}
+
+#user-input input{
+    
+   border-bottom:2px solid #ffffff;
+   border-top: none;
+   border-left: none;
+   border-right:none;
+   box-shadow: none;
+   background-color: transparent;  
+   color: #ffffff;
+   font-size: larger;
+}
+
+#user-input textarea{
+     border-bottom:2px solid #ffffff;
+   border-top: none;
+   border-left: none;
+   border-right:none;
+   box-shadow: none;
+   background: transparent;  
+   color: #ffffff;
+   font-size: larger;
+}
+
+#user-input input::placeholder{
+    color: #ffffff;
+    font-size:large;
+}
+
+#user-input textarea::placeholder{
+    color: #ffffff;
+    font-size:large;
+}
+
+#user-input label{
+    font-size: larger;
+}
+
+.useraddbutton button{
+   border: 2px white solid;
+   color:#ffffff;
+   font-size: large;
+   font-weight: bold;
+}
+
+
+.useraddbutton button:hover{
+   border: 2px #087ecc solid;
+   color:#087ecc;
+   font-size: large;
+   font-weight: bold;
+}
+
+.Useradd-heading{
+    text-align: center;
+    padding: 10px;
+}
+
+.Useradd-heading h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.Useradd-heading p{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+ .input-group span{
+    background: transparent;
+   
+}
+
+.text-area span{
+    top: 60px;
+    position: relative;
+    right: 15px;
+}
+
+
+/* User login page */
+
+.userlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.userlogin-img-login img{
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    opacity:0.4;
+    border-radius: 2rem;
+    
+}
+
+.userlogin-img-login{
+    background: linear-gradient(black,#087ecc,#087ecc,black);
+}
+
+.userlogin-img h2{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+     width: 40%;
+     color: #ffffff;
+     font-weight: bold;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+.userlogin-img p{
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    font-weight: 600;
+   color: #ffffff;
+} 
+
+.userlogin-img h4{
+    
+    position: absolute;
+    top: 49%;
+    left: 6%;
+    width: 40%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.userloginform{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+   background:linear-gradient(black,#087ecc,#087ecc,black) ;
+}
+
+.userlogin-form{
+    text-align: center;
+    background-color: #22b0e9;
+    width: 100%;
+    padding: 15px;
+    margin: 18px; 
+    border-radius: 4px;
+    box-shadow: 0px 0px 14px 2px white,
+                0px 0px 14px 4px #8f8d8d
+    ;
+}
+
+.userloginform-h1 h1{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   font-size:35px;
+}
+
+.userloginform-h2 h2{
+     font-family:serif;
+    font-weight: bold;
+    font-size:28px;
+}
+.userloginform input{
+    border: 2px solid black;
+  
+}
+
+.userloginform label{
+    font-weight: bold;
+   font-size: medium;
+}
+
+.userlogin-button button{
+    color: #000000;
+    font-weight: 600;
+    border: 2px solid;
+}
+
+.userlogin-button button:hover{
+    
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+/* Total users add  */
+
+.tabletotal{
+     background: linear-gradient(#222020,#087ecc,#087ecc,#000000);
+
+}
+
+.tabletotal th{
+    font-size: larger;
+    font-family: sans-serif ;
+}
+
+.tabletotal td{
+    font-size:medium;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabletotal img{
+    text-align: center;
+        border-radius: 4px;
+        width: 80%;
+        margin: 20px 0px 20px 0px;
+      transform: scale(0.8);
+      transition: 0.7s;
+}
+
+.tabletotal img:hover{
+  transform: scale(1);
+   transition: 0.4s;
+}
+
+ 
+.total-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.total-count .card{
+    margin: 3.5rem;
+    padding: 2.3rem;
+    border: 1px solid #f7f5f5;
+    box-shadow:  0px 3px 13px;
+    color: #ffffff;
+}
+
+
+
+/* Waste addpage  */
+
+.Wasteadd{
+   
+    background: linear-gradient(#222020,#087ecc,#087ecc,#000000) ;
+}
+
+.Wasteadd h2{
+    position: relative;
+     top:30px;
+    padding-top: 28px;
+    color: white;
+    font-size: 2.7rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.waste-image img{
+    position: relative;
+    top:25px;
+    right:0%;
+    width: 125px;
+    height: 100px;
+    margin: 10px;
+}
+
+.WasteCategorie img{
+  width: 150px;
+  margin: 20px;
+  height: 160px;
+ animation: heartBeat 3s infinite;
+}
+
+
+
+
+@keyframes heartBeat {
+   0%{transform: scale(0.8);}
+   50%{transform: scale(1);}
+   100%{transform: scale(0.9);}
+
+}
+
+/* Addwaste-pops  */
+
+.Addwaste-pops{
+    background: #252527;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Workeradd  page */
+.Workeradd h2{
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+     background: linear-gradient(#087ecc,#000000,#087ecc,#000000,#087ecc,#000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Workeradd h4{
+   font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: linear-gradient(black,white,black,black,white,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Workerlogin page  */
+
+.Workerlogin{
+     background-image:linear-gradient(rgba(0,0,0,0.7)), url(./Image/19.jpg);
+     background-position: center;
+     background-size: cover;
+    }
+
+.Workerlogin h2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(#ffffff,#000000,#ffffff,#000000,white,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.Workerlogin h4{
+    font-size: 1.9rem;
+        font-weight: bold;
+        background: linear-gradient(white,#be6025,white,white,#be6025);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* Worker details  page  */
+.workerdetails{
+    background: linear-gradient(#222020,#087ecc,#087ecc,#000000);
+}
+.workerdetails h2{
+   font-size: 2rem;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(black,white,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.workerdetails h3{
+   font-size: 1.6rem;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background: linear-gradient(#28d4ff,#ffffff,#000000);
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.worker-card {
+  border: 3px solid #17a2b8; /* info-subtle color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.worker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.worker-card .card-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #e9f7fa; /* subtle background */
+  border-bottom: 2px solid #6c757d;
+  padding: 10px;
+}
+
+.worker-card .card-body {
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.worker-card .card-footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.worker-card .btn-primary {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  width: 80px;
+}
+
+/* Completed task page  */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+}
+
+#completed-page{
+ background: linear-gradient(#087ecc,#000000,#087ecc,#000000,#087ecc,#000000);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Task List Table */
+.completed-list {
+ 
+  max-width: 800px;
+  margin: auto;
+}
+
+.completed-list .row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 2fr 2fr;
+  padding: 12px 10px;
+  background: white;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background 0.2s;
+}
+
+.completed-list .row.header {
+  font-weight: bold;
+  background: #dfe6e9;
+  cursor: default;
+}
+
+.completed-list .row:hover {
+  background: #eaf3ff;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 400px;
+  animation: fadeIn 0.3s ease;
+  position: relative;
+}
+
+.modal-box h2 {
+  margin-top: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Modal Variants */
+.modal.success .modal-box {
+  border-left: 6px solid green;
+}
+
+.modal.dark .modal-box {
+  background: #2d3436;
+  color: white;
+}
+
+.modal.gradient .modal-box {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Comment page  */
+.comment-page{
+    background: linear-gradient(#087ecc,#000000,#087ecc,#000000,#087ecc,#000000);
+}
+/* Container */
+.feedback-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Cards container */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+/* Card styles */
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Card colors */
+.card-suggestions {
+  background-color: #fce4ec;
+}
+.card-complaints {
+  background-color: #e3f2fd;
+}
+.card-praise {
+  background-color: #e8f5e9;
+}
+
+/* Comment Box */
+.comment-box {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.comment-box h2 {
+  margin-bottom: 5px;
+}
+
+.comment-prompt {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Textarea */
+.comment-textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Previous Comments */
+.previous-comments {
+  margin-top: 20px;
+}
+
+.comment-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.no-feedback {
+  color: #777;
+}
+
+.animated-header {
+  font-size: 36px;
+  text-align: center;
+  color: #4caf50;
+  animation: bounceFade 2s ease-in-out infinite;
+}
+
+@keyframes bounceFade {
+  0%   { transform: translateY(-20px); opacity: 0; }
+  50%  { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-20px); opacity: 0; }
+}
