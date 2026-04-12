@@ -26,7 +26,8 @@ export default function Mainpage() {
       axios.post("http://localhost:5252/comment",{commt})
       .then(res=>{
         console.log(res.data);
-        alert("Feedback Sent...!")
+        alert("Feedback Sent...!");
+        window.location.reload(); 
       })
       .catch(err=>{console.log(err)})
     }

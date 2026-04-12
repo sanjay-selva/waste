@@ -11,6 +11,7 @@ export default function Comment() {
     axios.post("http://localhost:5252/comment",{commt})
     .then(res=>{
       console.log(res.data);
+     window.location.reload();
     })
     .catch(err=>{console.log(err)})
   }

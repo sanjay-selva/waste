@@ -4,7 +4,7 @@ import Mainmenu from './Mainmenu'
 export default function About() {
   return (
     <div>
-         <Mainmenu/>
+      <Mainmenu/>
       <section>
        
         <div className="about">

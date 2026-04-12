@@ -1,10 +1,10 @@
-import React from 'react'
-import Mainmenu from './Mainmenu'
+import React from 'react';
+import Mainmenu from './Mainmenu';
 
 export default function Workers() {
   return (
     <div>
-        <Mainmenu/>
+      <Mainmenu/>
    <section className="works-section">
   <div className="container">
 
@@ -46,8 +46,8 @@ export default function Workers() {
     </div>
 
     {/* BUTTON (No modal) */}
-    <div className="text-center mt-5">
-      <a className="move-btn"  href="Workerlogin">Get Move </a> 
+    <div className="text-center mt-5 mb-4">
+      <a className="move-btn text-decoration-none"  href="Workerlogin">Get Move </a> 
     </div>
 
   </div>

@@ -12,7 +12,7 @@ export default function Mainmenu(){
             <nav className="navbar navbar-expand-lg navbar-dark ">
   <div className="container">
     
-    <a className="navbar-brand " href="#">
+    <a className="navbar-brand " href="Mainpage">
   <img src="/src/image/29.png" width="48" alt="Loading img" />
 
   <b className="brand-text">WASTE HOM*</b>
@@ -59,7 +59,7 @@ export default function Mainmenu(){
     </a>
     <ul className="dropdown-menu">
        <li><a className="dropdown-item" href="Contact">Contact</a></li>
-      <li><a className="dropdown-item" href="#">About</a></li>
+      <li><a className="dropdown-item" href="About">About</a></li>
      
     </ul>
   </li>

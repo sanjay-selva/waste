@@ -1,10 +1,10 @@
-import React from 'react'
-import Mainmenu from './Mainmenu'
+import React from 'react';
+import Mainmenu from './Mainmenu';
 
 export default function Wastes() {
   return (
     <div>
- <Mainmenu/>
+      <Mainmenu/>
  <section className="waste-section">
  
       <div className="container">

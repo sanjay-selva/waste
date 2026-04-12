@@ -1,11 +1,11 @@
-import React from 'react'
-import Mainmenu from './Mainmenu'
+import React from 'react';
+import Mainmenu from './Mainmenu';
 
 export default function Management() {
   return (
     <>
 <section className="">
-    <Mainmenu/>
+  <Mainmenu/>
     <div className="management-section">
 
    

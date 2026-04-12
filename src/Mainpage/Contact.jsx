@@ -21,6 +21,7 @@ export default function Contact() {
   }
   return (
     <div>
+
       <Mainmenu/>
       <section >
         <div className='contact-text'>
