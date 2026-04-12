@@ -42,22 +42,22 @@ function App(){
   <Routes>
     {/* admin page  */}
     
-    <Route path="/Register/" element={<Register/>}></Route>
-    <Route path="/Login/" element={<Login/>}></Route>
-    <Route path="/Forgetpas/" element={<Forgetpas/>}></Route>
-    <Route path="/Adminprofile/" element={<Adminprofile/>}></Route>
+    <Route path="/Register" element={<Register/>}></Route>
+    <Route path="/Login" element={<Login/>}></Route>
+    <Route path="/Forgetpas" element={<Forgetpas/>}></Route>
+    <Route path="/Adminprofile" element={<Adminprofile/>}></Route>
   
 
   {/* userpage  */}
-    <Route path="/Userlogin/" element={<Userlogin/>}></Route>
-    <Route path="/Totalusers/" element={<Totalusers/>}></Route>
-    <Route path="/Useradd/" element={<Useradd/>}></Route>
+    <Route path="/Userlogin" element={<Userlogin/>}></Route>
+    <Route path="/Totalusers" element={<Totalusers/>}></Route>
+    <Route path="/Useradd" element={<Useradd/>}></Route>
 
 
 
 {/* waste Page  */}
-<Route path="/Wasteadd/" element={<Wasteadd/>}></Route>
-<Route path="/Totaltask/" element={<Totaltask/>}></Route>
+<Route path="/Wasteadd" element={<Wasteadd/>}></Route>
+<Route path="/Totaltask" element={<Totaltask/>}></Route>
 <Route path="/Workeradd" element={<Workeradd/>}></Route>
 <Route path="/Workerlogin" element={<Workerlogin/>}></Route>
 <Route path="/Workerdetails" element={<Workerdetails/>}></Route>
