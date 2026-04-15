@@ -28,7 +28,7 @@ import Comment from "./Wastepage/Comment"
 
 // Waste navbar 
 import Mainmenu from "./Mainpage/Mainmenu"
-import Mainpage from "./Mainpage/Mainpage"
+import Mainfrnd from "./Mainpage/Mainfrnd"
 import Management from "./Mainpage/Management"
 import Workers from "./Mainpage/Workers"
 import Wastes from "./Mainpage/Wastes"
@@ -40,6 +40,10 @@ function App(){
   <>
   <BrowserRouter>
   <Routes>
+
+    <Route path="/" element={<Mainfrnd />} />
+
+    
     {/* admin page  */}
     
     <Route path="/Register" element={<Register/>}></Route>
@@ -67,7 +71,7 @@ function App(){
 
 {/* Waste navbar  */}
 <Route path="/Mainmenu" element={<Mainmenu/>}></Route>
-<Route path="/Mainpage" element={<Mainpage/>}></Route>
+<Route path="/Mainfrnd" element={<Mainfrnd/>}></Route>
 <Route path="/Management" element={<Management/>}></Route> 
 <Route path="/Workers" element={<Workers/>}></Route>
 <Route path="/Wastes" element={<Wastes/>}></Route>

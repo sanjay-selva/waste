@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import Mainmenu from './Mainmenu'
 
-export default function Mainpage() {
+export default function Mainfrnd() {
 
    const [commt,setCommt]=useState("");
     const [success,setSuccess]=useState(false);
