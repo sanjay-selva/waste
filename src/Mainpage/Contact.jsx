@@ -32,7 +32,7 @@ export default function Contact() {
         <div className="row g-0">
 
           <div className="col-lg-6 col-12 justify-content-center align-content-center">
-            <img src="src/image/18.jpg" className='p-3 rounded-5' alt="Loading..." height="100%" width="100%" />
+            <img src="src/assets/18.jpg" className='p-3 rounded-5' alt="Loading..." height="100%" width="100%" />
           </div>
 
           <div className="col-lg-6 col-12">

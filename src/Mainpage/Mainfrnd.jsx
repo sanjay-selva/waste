@@ -43,7 +43,7 @@ export default function Mainfrnd() {
 
           <div className="carousel-item active" data-bs-interval="1000">
             <div className=" carousel-img-wrapper ">
-            <img src="src/image/20.jpg"  className=" carousel-img "  alt="Loading..." />
+            <img src="src/assets/20.jpg"  className=" carousel-img "  alt="Loading..." />
             </div>
             <div className="carousel-caption">
               
@@ -64,7 +64,7 @@ export default function Mainfrnd() {
 
                   <div className="col-12 col-lg-3 justify-content-center align-content-center">
                     <div className="pb-3">
-                       <img src="src/image/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
+                       <img src="src/assets/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
                     </div>
                  
                     <button className="btn futuristic-btn text-end" data-bs-toggle="modal" data-bs-target="#startModal">
@@ -79,7 +79,7 @@ export default function Mainfrnd() {
 
           <div className="carousel-item " data-bs-interval="2000">
            <div className=" carousel-img-wrapper ">
-            <img src="src/image/18.jpg"  className=" carousel-img " alt="Loading..." />
+            <img src="src/assets/18.jpg"  className=" carousel-img " alt="Loading..." />
            </div>
             <div className="carousel-caption">
               
@@ -100,7 +100,7 @@ export default function Mainfrnd() {
 
                   <div className="col-12 col-lg-3 justify-content-center align-content-center">
                     <div className="pb-3">
-                       <img src="src/image/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
+                       <img src="src/assets/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
                     </div>
                  
                     <button className="btn futuristic-btn " data-bs-toggle="modal" data-bs-target="#startModal">
@@ -117,7 +117,7 @@ export default function Mainfrnd() {
      
                 <div className="carousel-item " data-bs-interval="2000">
            <div className=" carousel-img-wrapper ">
-            <img src="src/image/16.jpg"  className=" carousel-img " alt="Loading..." />
+            <img src="src/assets/16.jpg"  className=" carousel-img " alt="Loading..." />
          </div>
             <div className="carousel-caption">
            
@@ -138,7 +138,7 @@ export default function Mainfrnd() {
 
                   <div className="col-12 col-lg-3 justify-content-center align-content-center">
                     <div className="pb-3">
-                       <img src="src/image/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
+                       <img src="src/assets/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
                     </div>
                  
                     <button className="btn futuristic-btn" data-bs-toggle="modal" data-bs-target="#startModal">
@@ -156,7 +156,7 @@ export default function Mainfrnd() {
         
                 <div className="carousel-item " data-bs-interval="2000">
            <div className=" carousel-img-wrapper ">
-            <img src="src/image/23.jpg"  className=" carousel-img " alt="Loading..." />
+            <img src="src/assets/23.jpg"  className=" carousel-img " alt="Loading..." />
           </div>        
           <div className="carousel-caption">
               
@@ -177,7 +177,7 @@ export default function Mainfrnd() {
 
                   <div className="col-12 col-lg-3 justify-content-center align-content-center">
                     <div className="pb-3">
-                       <img src="src/image/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
+                       <img src="src/assets/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
                     </div>
                  
                     <button className="btn futuristic-btn" data-bs-toggle="modal" data-bs-target="#startModal">
@@ -195,7 +195,7 @@ export default function Mainfrnd() {
              
              <div className="carousel-item " data-bs-interval="2000">
           <div className=" carousel-img-wrapper ">
-            <img src="src/image/5.jpg"  className=" carousel-img " alt="Loading..." />
+            <img src="src/assets/5.jpg"  className=" carousel-img " alt="Loading..." />
           </div>
             <div className="carousel-caption">
              
@@ -215,7 +215,7 @@ export default function Mainfrnd() {
 
                   <div className="col-12 col-lg-3 justify-content-center align-content-center">
                     <div className=" pb-3">
-                       <img src="src/image/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
+                       <img src="src/assets/29.png" className='my-3 ms-2 logo-icon' width="250" alt="Loading img" />
                     </div>
                  
                     <button className="btn futuristic-btn" data-bs-toggle="modal" data-bs-target="#startModal">
@@ -280,7 +280,7 @@ export default function Mainfrnd() {
           <div className="col-lg-4 col-12 mb-4">
             <div className="img-box slide-left">
               <img 
-                src="src/image/30.jpg " 
+                src="src/assets/30.jpg " 
                 alt="Office" 
               />
             </div>
@@ -317,7 +317,7 @@ export default function Mainfrnd() {
           <div className="col-lg-4 col-12">
             <div className="img-box slide-right mt-4">
               <img 
-                src="src/image/31.jpg" 
+                src="src/assets/31.jpg" 
                 alt="Office Work" 
               />
             </div>
@@ -344,7 +344,7 @@ export default function Mainfrnd() {
       {/* LEFT IMAGE */}
       <div className="col-lg-3 col-12">
         <div className="work-img m-4">
-          <img src="src/image/19.jpg" alt="Loading..." />
+          <img src="src/assets/19.jpg" alt="Loading..." />
         </div>
       </div>
 
@@ -366,7 +366,7 @@ export default function Mainfrnd() {
       {/* RIGHT IMAGE */}
       <div className="col-lg-3 col-12">
         <div className="work-img m-4">
-          <img src="src/image/23.jpg" alt="Loading..." />
+          <img src="src/assets/23.jpg" alt="Loading..." />
         </div>
       </div>
 
@@ -559,7 +559,7 @@ export default function Mainfrnd() {
         <div className="row g-0">
 
           <div className="col-lg-6 col-12 justify-content-center align-content-center">
-            <img src="src/image/18.jpg" className='p-3 rounded-5' alt="Loading..." height="100%" width="100%" />
+            <img src="src/assets/18.jpg" className='p-3 rounded-5' alt="Loading..." height="100%" width="100%" />
           </div>
 
           <div className="col-lg-6 col-12">
@@ -619,7 +619,7 @@ export default function Mainfrnd() {
             </div>
             <div className="col-12 about-h1">
                 <a className="navbar-brand " href="#">
-  <img src="/src/image/29.png" width="48" alt="Loading img" />
+  <img src="src/assets/29.png" width="48" alt="Loading img" />
 
   <b className="brand-text" style={{ fontSize:"22px"}}>WASTE HOM*</b>
 </a>

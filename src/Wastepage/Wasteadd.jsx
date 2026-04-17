@@ -72,7 +72,7 @@ export default function Wasteadd() {
             {/* Waste categories */}
             <div className="waste-image d-flex justify-content-center align-content-center">
               <div className="d-inline-flex justify-content-center align-content-center">
-                <img src="/src/image/25.png" className="container" alt="Loading Image" />
+                <img src="src/assets/25.png" className="container" alt="Loading Image" />
               </div>
               <div className="mb-5 d-inline-flex justify-content-center align-content-center">
                 <h2 className="fw-bold">Waste Categorie's</h2>
@@ -85,7 +85,7 @@ export default function Wasteadd() {
                 <div className="card mb-3">
                   <div className="row g-0 WasteCategorie">
                     <div className="col-md-4 d-flex justify-content-center align-content-center">
-                      <img src="/src/image/24.png" className="mt-3 card-img-start" alt="Loading Image" />
+                      <img src="src/assets/24.png" className="mt-3 card-img-start" alt="Loading Image" />
                     </div>
                     <div className="col-md-8 text-start">
                       <div className="card-body">
@@ -105,7 +105,7 @@ export default function Wasteadd() {
                 <div className="card mb-3">
                   <div className="row g-0 WasteCategorie">
                     <div className="col-md-4 d-flex justify-content-center align-content-center">
-                      <img src="/src/image/27.png" className="mt-3 card-img" alt="Loading Image" />
+                      <img src="src/assets/27.png" className="mt-3 card-img" alt="Loading Image" />
                     </div>
                     <div className="col-md-8 text-start">
                       <div className="card-body">
@@ -125,7 +125,7 @@ export default function Wasteadd() {
                 <div className="card mb-3">
                   <div className="row g-0 WasteCategorie">
                     <div className="col-md-4 d-flex justify-content-center align-content-center">
-                      <img src="/src/image/26.png" className="card-img mt-3" alt="Loading Image" />
+                      <img src="src/assets/26.png" className="card-img mt-3" alt="Loading Image" />
                     </div>
                     <div className="col-md-8 text-start">
                       <div className="card-body">

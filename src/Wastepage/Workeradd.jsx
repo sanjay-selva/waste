@@ -173,7 +173,7 @@ import React, { useState } from "react";
                 
                 <div className="  col-lg-5 d-flex justify-content-center align-items-center">
     <img 
-        src="src/image/18.jpg" 
+        src="src/assets/18.jpg" 
         className="p-4 img-fluid m-3 rounded-5" 
         alt="Vehicle" 
     />

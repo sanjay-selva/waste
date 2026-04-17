@@ -5,7 +5,7 @@
 }
 /* Admin register page  */
 .admin-reg{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(/src/Image/2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(src/assets/2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@
 /* Admin login page  */
 
 .login-image{
-    background-image:linear-gradient(rgba(0,0,0,0.9) ,rgba(0,0,0,0.3) ,rgba(0,0,0,0.9)), url(/src/Image/3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.9) ,rgba(0,0,0,0.3) ,rgba(0,0,0,0.9)), url(src/assets/3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,7 +107,7 @@
 
 /* admin foret pass */
 .forgetpas{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.1)) ,url(/src/Image/4.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.1)) ,url(src/assets/4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@
     height: 180px;
 }
 #modal-img{
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9) ), url(Image/4.jpg);
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9) ), url(src/assets/4.jpg);
     background-position: center;
     background-size: cover;
     
@@ -310,7 +310,7 @@
 
 .Useradd{
     
-    background-image:linear-gradient(156deg, rgba(0,0,0,0.7)),url(/src/Image/18.jpg);
+    background-image:linear-gradient(156deg, rgba(0,0,0,0.7)),url(src/assets/18.jpg);
     background-position: center;
     background-size: cover;
    
@@ -650,7 +650,7 @@
 /* Workerlogin page  */
 
 .Workerlogin{
-     background-image:linear-gradient(rgba(0,0,0,0.7)), url(./Image/19.jpg);
+     background-image:linear-gradient(rgba(0,0,0,0.7)), url(src/assets/19.jpg);
      background-position: center;
      background-size: cover;
     }

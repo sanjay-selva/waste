@@ -12,8 +12,8 @@ export default function Mainmenu(){
             <nav className="navbar navbar-expand-lg navbar-dark ">
   <div className="container">
     
-    <a className="navbar-brand " href="Mainpage">
-  <img src="/src/image/29.png" width="48" alt="Loading img" />
+    <a className="navbar-brand " href="Mainfrnd">
+  <img src="src/assets/29.png" width="48" alt="Loading img" />
 
   <b className="brand-text">WASTE HOM*</b>
 </a>
@@ -27,7 +27,7 @@ export default function Mainmenu(){
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 
   <li className="nav-item m-1">
-    <a className="nav-link multi-color-link active" href="Mainpage">Home</a>
+    <a className="nav-link multi-color-link active" href="Mainfrnd">Home</a>
   </li>
 
   {/* Management Dropdown */}

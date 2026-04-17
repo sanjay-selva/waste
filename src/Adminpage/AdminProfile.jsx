@@ -116,22 +116,22 @@ useEffect(()=>{
             </div>
   
     <div className="col-lg-3 col-4 m-2" >
-     <Link to="/Totalusers"> <img className="card-img w-75 " src="/src/Image/6.png" alt="Upload image" /> </Link> 
+     <Link to="/Totalusers"> <img className="card-img w-75 " src="/src/assets/6.png" alt="Upload image" /> </Link> 
       <label className=" form-label mt-3  fw-bold">Total Users</label>
      </div>
      <div className="col-lg-3 col-4 m-2" >
-      <Link to="/Totaltask"><img className="card-img w-75 " src="/src/Image/7.png" alt="Upload image" /> </Link>
+      <Link to="/Totaltask"><img className="card-img w-75 " src="/src/assets/7.png" alt="Upload image" /> </Link>
       <label className=" form-label mt-3  fw-bold">Total Waste Tasks</label>
      </div>
 
      <div className="col-lg-3 col-4 m-2">
-     <Link to="/Completedtask"> <img className="card-img w-75 " src="/src/Image/9.png" alt="Upload image" /></Link>
+     <Link to="/Completedtask"> <img className="card-img w-75 " src="/src/assets/9.png" alt="Upload image" /></Link>
        <label className=" form-label mt-3  fw-bold">Completed Tasks</label>
      
      </div>
 
      <div className="col-lg-3 col-4 m-2">
-      <Link to="/Workerdetails"> <img className="card-img w-75 " src="/src/Image/10.png" alt="Upload image" /></Link>
+      <Link to="/Workerdetails"> <img className="card-img w-75 " src="/src/assets/10.png" alt="Upload image" /></Link>
        <label className=" form-label  fw-bold mt-3">Total Workers</label>
        
      </div>
@@ -151,20 +151,20 @@ useEffect(()=>{
             </div>
 
     <div className="col-lg-3 col-4 m-2 " >
-      <Link to="/Useradd"> <img className="card-img w-75 " src="/src/Image/15.png" alt="Upload image" /></Link>
+      <Link to="/Useradd"> <img className="card-img w-75 " src="/src/assets/15.png" alt="Upload image" /></Link>
       <label className=" form-label fw-bold mt-3">Users add </label>
      </div>
      <div className="col-lg-3 col-4  m-2" >
-      <Link to="/Wasteadd"> <img className="card-img w-75 " src="/src/Image/14.png" alt="Upload image" /></Link>
+      <Link to="/Wasteadd"> <img className="card-img w-75 " src="/src/assets/14.png" alt="Upload image" /></Link>
       <label className=" form-label fw-bold mt-3">Waste Category </label>
      </div>
      <div className="col-lg-3 col-4 m-2">
-         <Link to="/Workeradd"> <img className="card-img w-75 " src="/src/Image/11.png" alt="Upload image" />   </Link>
+         <Link to="/Workeradd"> <img className="card-img w-75 " src="/src/assets/11.png" alt="Upload image" />   </Link>
         <label className=" form-label fw-bold mt-3">Worker / Driver Add</label>
     
     </div>
      <div className="col-lg-3 col-4 m-2"> 
-    <Link to="/Comment">  <img className="card-img w-75 " src="/src/Image/12.png" alt="Upload image" /></Link>
+    <Link to="/Comment">  <img className="card-img w-75 " src="/src/assets/12.png" alt="Upload image" /></Link>
        <label className=" form-label fw-bold mt-3">Complaint /Feedback</label>
      
      </div>

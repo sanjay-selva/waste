@@ -20,7 +20,7 @@ export default function Management() {
           <div className="col-lg-4 col-12 mb-4">
             <div className="img-box slide-left">
               <img 
-                src="src/image/30.jpg " 
+                src="src/assets/30.jpg " 
                 alt="Office" 
               />
             </div>
@@ -57,7 +57,7 @@ export default function Management() {
           <div className="col-lg-4 col-12">
             <div className="img-box slide-right mt-4">
               <img 
-                src="src/image/31.jpg" 
+                src="src/assets/31.jpg" 
                 alt="Office Work" 
               />
             </div>
