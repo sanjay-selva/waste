@@ -38,7 +38,7 @@ export default function Userlogin(){
                         <div className="col-lg-6 userlogin-img">
                             <div className="userlogin-img-login">
                                 <div className=" d-flex justify-content-center">
-                          <img src="src/assets/17.jpg"   alt="Loading Img" />
+                          <img src="/assets/17.jpg"   alt="Loading Img" />
                           </div>
                           <h2>Door-to-Door Collection....</h2>
                          <p> <FontAwesomeIcon icon={faDumpsterFire} style={{width:"58px" ,height:"60px"}}></FontAwesomeIcon> Drop it Here</p>

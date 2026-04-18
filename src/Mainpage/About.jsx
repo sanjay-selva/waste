@@ -13,7 +13,7 @@ export default function About() {
             </div>
             <div className="col-12 about-h1">
                 <a className="navbar-brand " href="#">
-  <img src="src/assets/29.png" width="48" alt="Loading img" />
+  <img src="/assets/29.png" width="48" alt="Loading img" />
 
   <b className="brand-text" style={{ fontSize:"22px"}}>WASTE HOM*</b>
 </a>

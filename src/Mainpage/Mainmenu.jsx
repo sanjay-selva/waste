@@ -13,7 +13,7 @@ export default function Mainmenu(){
   <div className="container">
     
     <a className="navbar-brand " href="Mainfrnd">
-  <img src="src/assets/29.png" width="48" alt="Loading img" />
+  <img src="/assets/29.png" width="48" alt="Loading img" />
 
   <b className="brand-text">WASTE HOM*</b>
 </a>

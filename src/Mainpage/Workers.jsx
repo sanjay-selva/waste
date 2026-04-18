@@ -17,7 +17,7 @@ export default function Workers() {
       {/* LEFT IMAGE */}
       <div className="col-lg-3 col-12">
         <div className="work-img m-4">
-          <img src="src/assets/19.jpg" alt="Loading..." />
+          <img src="/assets/19.jpg" alt="Loading..." />
         </div>
       </div>
 
@@ -39,7 +39,7 @@ export default function Workers() {
       {/* RIGHT IMAGE */}
       <div className="col-lg-3 col-12">
         <div className="work-img m-4">
-          <img src="src/assets/19.jpg" alt="Loading..." />
+          <img src="/assets/19.jpg" alt="Loading..." />
         </div>
       </div>
 
